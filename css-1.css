@@ -1,0 +1,113 @@
+/* Variable definitions start
+   ==========================
+   <Variable name="keycolor" description="Main Color" type="color" default="#0b354d" value="#0b354d"/>
+
+   <Group description="Teks Halaman" selector="body">
+     <Variable name="page.text.font" description="Font" type="font"
+         default="normal normal 16px Roboto, sans-serif" value="normal normal 13px Roboto, sans-serif"/>
+     <Variable name="body.text.color" description="Main Text Color" type="color" default="#393939" value="#393939"/>
+   </Group>
+
+   <Group description="Warna Background" selector=".body-fauxcolumns-outer">
+     <Variable name="body.background.color" description="Body" type="color" default="#ffffff" value="#ecf0f1"/>
+	 <Variable name="posts.background.color" description="Warna Wrapper" type="color" default="#ffffff" value="rgba(0, 0, 0, 0)"/>
+	 <Variable name="footer.background.color" description="Footer" type="color" default="#222222" value="#222222"/>
+   </Group>
+   
+   <Variable name="body.background" description="Body Background" type="background"
+       color="$(body.background.color)" default="$(color) none repeat scroll top left" value="$(color) none repeat scroll top left"/>
+   <Variable name="body.background.override" description="Body Background Override" type="string" default="" value=""/>
+   
+   <Group description="Warna Link" selector=".main-outer">
+     <Variable name="body.link.color" description="Link Color" type="color" default="#0b354d" value="#0b354d"/>
+     <Variable name="body.link.visited.color" description="Visited Color" type="color" default="#0b354d" value="#6bc9f9"/>
+     <Variable name="body.link.hover.color" description="Hover Color" type="color" default="#555555" value="#cc0000"/>
+   </Group>
+
+   <Group description="Judul Blog" selector=".header">
+     <Variable name="header.font" description="Font" type="font"
+         default="bold 23px Roboto, sans-serif" value="normal bold 23px Roboto, sans-serif"/>
+     <Variable name="header.title.color" description="Title Color" type="color" default="#ffffff"  value="#ffffff"/>
+   </Group> 
+   
+   <Group description="Menu Navigasi" selector="#cssmenu">
+     <Variable name="navmenu.font" description="Font" type="font"
+         default="bold 12px Roboto, sans-serif" value="bold 17px Roboto, sans-serif"/>
+     <Variable name="navmenu.font.color" description="Color" type="color" default="#ffffff"  value="#ffffff"/>
+     <Variable name="navmenu.font.hover.color" description="Hover Color" type="color" default="#ffffff"  value="#ff0000"/>
+   </Group>
+   
+   <Group description="Submenu Navigasi" selector="#cssmenu">
+     <Variable name="navsubmenu.font" description="Font" type="font"
+         default="400 12px Roboto, sans-serif" value="normal 13px Roboto, sans-serif"/>
+     <Variable name="navsubmenu.font.color" description="Color" type="color" default="#ffffff"  value="#ffffff"/>
+     <Variable name="navsubmenu.font.background" description="Background Color" type="color" default="#0b354d"  value="#0b354d"/>
+     <Variable name="navsubmenu.hover" description="Hover Color" type="color" default="#6bc9f9"  value="#0b354d"/>
+   </Group>
+
+   <Group description="Icon Pencarian" selector=".search-icon">
+     <Variable name="search.icon.color" description="Color" type="color" default="#ffffff"  value="#ffffff"/>
+   </Group>
+   
+   <Group description="Judul Postingan" selector="h2.post-title, .FeaturedPost .post-summary h3">
+     <Variable name="post.title.font" description="Font" type="font"
+         default="bold 16px Roboto, sans-serif" value="bold 18px Roboto, sans-serif"/>
+	 <Variable name="posts.title.color" description="Link Color" type="color" default="#0b354d" value="#0b354d"/>
+	 <Variable name="post.title.hover.color" description="Link Hover Color" type="color" default="#0b354d" value="#cc0000"/>
+   </Group>
+
+   <Group description="Judul Widget" selector=".sidebar h2, .sidebar-sticky h2, .latest-post-title h2, .above-post-widget h2">
+     <Variable name="widget.title.font" description="Title Font" type="font"
+        default="normal 15px Roboto, sans-serif" value="normal bold 15px Roboto, sans-serif"/>
+   </Group>
+
+   <Group description="Label di atas Postingan" selector=".label-info-th">
+     <Variable name="label.bg.color" description="Background" type="color" default="#ffffff" value="#0b354d"/>
+	 <Variable name="label.color" description="Color" type="color" default="#555555" value="#ffffff"/>
+	 <Variable name="label.border.color" description="Border Color" type="color" default="#f1f1f1" value="#DCDCDC"/>
+   </Group>
+
+   <Group description="Teks Postingan" selector=".post-body, .post-snippet">
+     <Variable name="post.page.text.font" description="Font" type="font"
+         default="normal normal 16px Roboto, sans-serif" value="normal normal 12px Roboto, sans-serif"/>
+	 <Variable name="post.body.color" description="Color" type="color" default="#393939" value="#4f4f4f"/>
+   </Group>
+   
+   <Group description="Post Footer" selector=".post-info">
+     <Variable name="post.footer.font" description="Font" type="font"
+         default="normal normal 14px Roboto, sans-serif" value="normal normal 14px Roboto, sans-serif"/>
+     <Variable name="post.footer.color" description="Color" type="color" default="#555555" value="#0b354d"/>
+   </Group>
+   
+   <Group description="Icon Media Sosial di Footer" selector="#footer-widget-container">
+     <Variable name="footerwidget.bg.color" description="Background Color" type="color" default="#f8f8f8"  value="rgba(0, 0, 0, 0)"/>
+	 <Variable name="footerwidget.color" description="Color" type="color" default="#999999"  value="#0b354d"/>
+   </Group>
+   
+   <Group description="Widget Featured Post" selector=".FeaturedPost .post-summary"> 
+     <Variable name="jwfp.background.color" description="Background" type="color" default="#ffffff" value="rgba(0, 0, 0, 0)"/>
+	 <Variable name="jwfp.color" description="Color" type="color" default="#555555" value="#ffffff"/>
+   </Group> 
+
+   Variable definitions end
+   ========================*/
+   
+	<Group description="JANGAN DIEDIT">
+		<Variable name="body.text.font" description="Font" type="font" default="normal normal 14px Roboto, sans-serif" value="normal normal 14px Roboto, sans-serif"/>
+		<Variable name="tabs.font" description="0" type="font" default="normal normal 14px Roboto, sans-serif" value="normal normal 14px Roboto, sans-serif"/>
+		<Variable name="posts.icons.color" description="1" type="color" default="#707070" value="#707070"/>
+		<Variable name="labels.background.color" description="2" type="color" default="#ffffff" value="#ffffff"/>
+		<Variable name="blog.title.font" description="3" type="font" default="normal normal 14px Roboto, sans-serif" value="normal normal 14px Roboto, sans-serif"/>
+		<Variable name="blog.title.color" description="4" type="color" default="#fff" value="#ffffff"/>
+		<Variable name="header.icons.color" description="5" type="color" default="#fff" value="#ffffff"/>
+		<Variable name="tabs.color" description="14" type="color" default="#ccc" value="#cccccc"/>
+		<Variable name="tabs.selected.color" description="6" type="color" default="#fff" value="#ffffff"/>
+		<Variable name="tabs.overflow.background.color" description="16" type="color" default="$(posts.background.color)" value="#ffffff"/>
+		<Variable name="tabs.overflow.color" description="7" type="color" default="#393939" value="#393939"/>
+		<Variable name="tabs.overflow.selected.color" description="18" type="color" default="#393939" value="#393939"/>
+		<Variable name="posts.title.font" description="8" type="font" default="normal normal 20px Roboto, sans-serif" value="normal normal 20px Roboto, sans-serif"/>
+		<Variable name="posts.text.font" description="9" type="font" default="normal normal 14px Roboto, sans-serif" value="normal normal 14px Roboto, sans-serif"/>
+		<Variable name="posts.text.color" description="10" type="color" default="#393939" value="#393939"/>
+	</Group>
+
+/**
